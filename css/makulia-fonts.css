@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Makulia';
+  src:  url('fonts/Makulia.eot?gw2xs7');
+  src:  url('fonts/Makulia.eot?gw2xs7#iefix') format('embedded-opentype'),
+    url('fonts/Makulia.ttf?gw2xs7') format('truetype'),
+    url('fonts/Makulia.woff?gw2xs7') format('woff'),
+    url('fonts/Makulia.svg?gw2xs7#Makulia') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Makulia' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-garlic-icon:before {
+  content: "\e900";
+}
+.icon-secret-ingredient-icon:before {
+  content: "\e901";
+}
+.icon-kettle-icon:before {
+  content: "\e902";
+}
