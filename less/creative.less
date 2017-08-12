@@ -1,6 +1,10 @@
 @import "variables.less";
 @import "mixins.less";
 
+@import url('https://fonts.googleapis.com/css?family=Asar');
+@import url('https://fonts.googleapis.com/css?family=Norican');
+@import url('https://fonts.googleapis.com/css?family=Rouge+Script');
+
 // Global Components
 html,
 body {
@@ -9,7 +13,7 @@ body {
 }
 
 body {
-    .serif-font;
+    font-family: 'Asar', serif;
 }
 
 hr {
@@ -31,17 +35,28 @@ a {
     }
 }
 
-h1,
+h1 {
+    .sans-serif-font;
+}
+
 h2,
 h3,
 h4,
 h5,
 h6 {
-    .sans-serif-font;
+    font-family: 'Rouge Script', cursive;
+}
+
+h2 {
+   font-size: 50px;
+}
+
+h3 {
+   font-size: 40px;
 }
 
 p {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5;
     margin-bottom: 20px;
 }
@@ -179,7 +194,7 @@ header {
                 text-transform: uppercase;
                 margin-top: 0;
                 margin-bottom: 0;
-                font-size: 30px;
+                font-size: 40px;
             }
             hr {
                 margin: 30px auto;
@@ -187,7 +202,7 @@ header {
             p {
                 font-weight: 300;
                 color: fade(white, 70%);
-                font-size: 16px;
+                font-size: 22px;
                 margin-bottom: 50px;
             }
         }
@@ -206,10 +221,10 @@ header {
                 margin-left: auto;
                 margin-right: auto;
                 h1 {
-                    font-size: 50px;
+                    font-size: 60px;
                 }
                 p {
-                    font-size: 18px;
+                    font-size: 22px;
                     max-width: 80%;
                     margin-left: auto;
                     margin-right: auto;
