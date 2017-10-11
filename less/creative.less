@@ -1,7 +1,7 @@
 @import "variables.less";
 @import "mixins.less";
 
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600');
 @import url('https://fonts.googleapis.com/css?family=Rouge+Script');
 @import url('https://fonts.googleapis.com/css?family=Raleway:200,200i,300i,400i');
 
@@ -40,11 +40,15 @@ h1 {
 }
 
 h2,
-h3,
+h3 {
+    font-family: 'Rouge Script', cursive;
+}
+
 h4,
 h5,
 h6 {
-    font-family: 'Rouge Script', cursive;
+    font-family: 'Raleway', cursive;
+    font-style: italic;
 }
 
 h2 {
@@ -55,11 +59,24 @@ h3 {
    font-size: 40px;
 }
 
+h4 {
+   font-size: 20px;
+   font-weight: 400;
+}
+
+h5 {
+   font-size: 18px;
+}
+
 p {
     font-size: 20px;
     line-height: 1.5;
     margin-bottom: 20px;
     font-weight: 300;
+}
+
+b, strong {
+    font-weight: 600;
 }
 
 .bg-primary {

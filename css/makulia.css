@@ -12,8 +12,11 @@ img.logo {
 	font-size: 19px;
 }
 .product p {
-    font-size: 18px;
+    font-size: 19px;
 }
 .padding-top {
 	padding-top: 25px;
+}
+.tuotetiedot p {
+	font-size: 16px;
 }
