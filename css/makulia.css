@@ -5,7 +5,7 @@ img.logo {
 	height: 35px;
 	padding-bottom: 10px;
 }
-.product-summary {
+.product-summary, .more-link {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
 	font-style: italic;
