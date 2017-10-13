@@ -20,3 +20,10 @@ img.logo {
 .tuotetiedot p {
 	font-size: 16px;
 }
+ul.product .fa {
+	font-size: 14px;
+	padding-left: 10px;
+}
+.black {
+	color: black;
+}

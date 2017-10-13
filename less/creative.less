@@ -49,6 +49,7 @@ h5,
 h6 {
     font-family: 'Raleway', cursive;
     font-style: italic;
+    font-weight: 400;
 }
 
 h2 {
@@ -61,7 +62,6 @@ h3 {
 
 h4 {
    font-size: 20px;
-   font-weight: 400;
 }
 
 h5 {
@@ -159,6 +159,13 @@ aside {
             &:hover,
             &:focus {
                 color: white;
+            }
+        }
+        .nav.product > li > a,
+        .nav.product > li > a:focus {
+            color: fade(#e5e5e5, 70%);
+            &:hover {
+                color: #e5e5e5;
             }
         }
         .nav > li > a,
