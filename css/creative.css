@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2017 Start Bootstrap
+ * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600');
@@ -248,6 +248,9 @@ header.home {
 }
 header.makupaketti {
   background-image: url('../img/header-makupaketti.jpg');
+}
+header.etusivu {
+  background-image: url('../img/header-etusivu.jpg');
 }
 .section-heading {
   margin-top: 0;
