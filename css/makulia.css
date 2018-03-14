@@ -35,6 +35,14 @@ ul.product .fa {
 	background-color: rgba(0, 0, 0, 0.3);
 	padding: 20px;
 }
+header.temporary h3 {
+	font-family: 'Rouge Script', cursive;
+	font-size: 40px;
+	color: #181818;
+}
+a.no-hover:hover {
+	text-decoration: none;
+}
 /*
 .header-content-inner {
 	text-shadow: 0 0 10px black;
