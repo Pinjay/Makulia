@@ -5,11 +5,16 @@ img.logo {
 	height: 35px;
 	padding-bottom: 10px;
 }
-.product-summary, .more-link {
+.product-summary, .more-link, .addtocart {
 	font-family: 'Raleway', sans-serif;
-	font-weight: 300;
 	font-style: italic;
 	font-size: 19px;
+}
+.addtocart {
+	font-weight: 500
+}
+.product-summary, .more-link {
+	font-weight: 300;
 }
 .product p {
     font-size: 19px;
@@ -24,8 +29,11 @@ ul.product .fa {
 	font-size: 14px;
 	padding-left: 10px;
 }
-.black {
+.black, .more-link {
 	color: black;
+}
+.padding-bottom {
+	padding-bottom: 20px;
 }
 .white {
 	color: white;
@@ -42,6 +50,23 @@ header.temporary h3 {
 }
 a.no-hover:hover {
 	text-decoration: none;
+}
+.inline-block {
+	display: inline-block;
+}
+/* svg muokkauksia */
+article {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 15px;
+}
+.article {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 15px;
+	flex-direction: row;
 }
 /*
 .header-content-inner {
