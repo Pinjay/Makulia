@@ -22,6 +22,9 @@ img.logo {
 .padding-top {
 	padding-top: 25px;
 }
+.padding-bottom {
+	padding-bottom: 20px;
+}
 .tuotetiedot p {
 	font-size: 16px;
 }
@@ -32,8 +35,8 @@ ul.product .fa {
 .black, .more-link {
 	color: black;
 }
-.padding-bottom {
-	padding-bottom: 20px;
+.red {
+	color: #ce2828;
 }
 .white {
 	color: white;
@@ -67,6 +70,16 @@ article {
 	align-items: center;
 	padding-bottom: 15px;
 	flex-direction: row;
+}
+.font-40 {
+	font-size: 40px;
+}
+.quote-name {
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	font-style: italic;
+	text-align: right;
+	padding-top: 20px;
 }
 /*
 .header-content-inner {
