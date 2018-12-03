@@ -5,6 +5,9 @@ img.logo {
 	height: 35px;
 	padding-bottom: 10px;
 }
+.bg-featured {
+  background-color: #cc4f4f;
+}
 .product-summary, .more-link, .addtocart {
 	font-family: 'Raleway', sans-serif;
 	font-style: italic;
