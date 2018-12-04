@@ -35,6 +35,9 @@ ul.product .fa {
 	font-size: 14px;
 	padding-left: 10px;
 }
+.fa-lg {
+	font-size: 25px;
+}
 .black, .more-link {
 	color: black;
 }
