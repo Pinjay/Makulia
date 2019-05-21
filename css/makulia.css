@@ -8,19 +8,23 @@ img.logo {
 .bg-featured {
   background-color: #cc4f4f;
 }
-.product-summary, .more-link, .addtocart {
+.product-summary, .more-link, .addtocart, .quote-name, h4 {
 	font-family: 'Raleway', sans-serif;
 	font-style: italic;
+}
+.product-summary, .more-link, .addtocart, .product p {
 	font-size: 19px;
 }
-.addtocart {
-	font-weight: 500
+.quote-name {
+	color: black;
+	text-align: right;
+	padding-top: 20px;
+}
+.addtocart, h4 {
+	font-weight: 500;
 }
 .product-summary, .more-link {
 	font-weight: 300;
-}
-.product p {
-    font-size: 19px;
 }
 .padding-top {
 	padding-top: 25px;
@@ -79,13 +83,6 @@ article {
 }
 .font-40 {
 	font-size: 40px;
-}
-.quote-name {
-	color: black;
-	font-family: 'Raleway', sans-serif;
-	font-style: italic;
-	text-align: right;
-	padding-top: 20px;
 }
 /*
 .header-content-inner {
