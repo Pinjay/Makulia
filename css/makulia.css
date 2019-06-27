@@ -84,6 +84,9 @@ article {
 .font-40 {
 	font-size: 40px;
 }
+.w100 {
+	width: 100%;
+}
 /*
 .header-content-inner {
 	text-shadow: 0 0 10px black;
